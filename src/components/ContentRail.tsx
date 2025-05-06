@@ -117,7 +117,7 @@ const ImageWrapper = styled.div`
 `;
 const CardFooter = styled.div`
   padding: 0.5rem;
-  font-size: 0.9rem;c
+  font-size: 0.9rem;
 `;
 const Price = styled.div`
   font-weight: bold;
