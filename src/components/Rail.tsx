@@ -4,14 +4,10 @@ type Props = {
   cards: React.ReactNode[];
 };
 
-
 const Rail: React.FC<Props> = ({ cards }) => {
   return (
     <WrapperExt>
-
-      {cards.map(card => (
-        card
-      ))}
+      {cards.map(card => (card))}
     </WrapperExt>
   );
 };
@@ -20,9 +16,11 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   padding: 3rem;
-`
+`;
 const WrapperExt = styled(Wrapper)`
   flex-direction: row;
-`
+  aling-items: stretch;
+  gap: 1rem;
+`;
 
 export default Rail;
