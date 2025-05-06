@@ -107,7 +107,7 @@ const ItemCard = styled.div<{ featured?: boolean }>`
   box-shadow: 0 1px 5px rgba(0,0,0,0.1);
   display: flex;
   flex-direction: column;
-  overflow: hidden;  
+  overflow: hidden;
 `;
 const ImageWrapper = styled.div`
   width: 100%;
